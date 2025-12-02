@@ -1,0 +1,26 @@
+[
+  {
+    "src": "/portfolio/1.jpg",
+    "alt": "Project 1",
+    "title": "Project One",
+    "description": "A beautiful and modern website for a tech startup."
+  },
+  {
+    "src": "/portfolio/2.jpg",
+    "alt": "Project 2",
+    "title": "Project Two",
+    "description": "An e-commerce platform with a focus on user experience."
+  },
+  {
+    "src": "/portfolio/3.jpg",
+    "alt": "Project 3",
+    "title": "Project Three",
+    "description": "A corporate website for a leading company in the industry."
+  },
+  {
+    "src": "/portfolio/4.jpg",
+    "alt": "Project 4",
+    "title": "Project Four",
+    "description": "A landing page for a new mobile application."
+  }
+]
