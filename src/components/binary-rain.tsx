@@ -1,60 +1,28 @@
-'use client';
-
-import { useEffect, useState } from 'react';
+"use client";
 
 export function BinaryRain() {
-  const [binaryStrings, setBinaryStrings] = useState<Array<{ id: string; left: number }>>([]);
-
-  useEffect(() => {
-    const generateBinary = () => {
-      return Math.random() > 0.5 ? '1' : '0';
-    };
-
-    const createBinaryString = () => {
-      let str = '';
-      for (let i = 0; i < 12; i++) {
-        str += generateBinary();
-      }
-      return str;
-    };
-
-    const newStrings = Array.from({ length: 8 }, (_, i) => ({
-      id: `binary-${Date.now()}-${i}`,
-      left: Math.random() * 100,
-    }));
-
-    setBinaryStrings(newStrings);
-
-    const timer = setTimeout(() => {
-      setBinaryStrings([]);
-    }, 8000);
-
-    return () => clearTimeout(timer);
-  }, []);
+  // Generar código binario estático para una apariencia profesional
+  const binaryLines = Array.from({ length: 3 }, () => {
+    return Array.from({ length: 40 }, () => (Math.random() > 0.5 ? "1" : "0")).join("");
+  });
 
   return (
-    <>
-      {binaryStrings.map((item) => (
-        <div
-          key={item.id}
-          className="fixed pointer-events-none font-mono text-sm text-primary/60 animate-binary whitespace-nowrap"
-          style={{
-            left: `${item.left}%`,
-            top: '0',
-            zIndex: -1,
-            letterSpacing: '0.5em',
-            lineHeight: '1.5',
-          }}
-        >
-          {Array.from({ length: 25 }).map((_, i) => (
-            <div key={i}>
-              {Array.from({ length: 3 })
-                .map(() => (Math.random() > 0.5 ? '1' : '0'))
-                .join('')}
-            </div>
-          ))}
+    <div className="fixed top-0 left-0 right-0 z-0 pointer-events-none overflow-hidden">
+      {/* Línea gradiente superior profesional */}
+      <div className="h-1 bg-gradient-to-r from-transparent via-primary to-transparent opacity-50" />
+
+      {/* Código binario decorativo */}
+      <div className="relative h-20 bg-gradient-to-b from-primary/5 to-transparent backdrop-blur-sm border-b border-primary/10 flex items-center justify-center">
+        <div className="font-mono text-xs text-primary/40 overflow-hidden whitespace-nowrap max-w-full px-4">
+          <div className="flex gap-12 opacity-70 hover:opacity-100 transition-opacity duration-300">
+            {binaryLines.map((line, i) => (
+              <span key={i} className="tracking-widest">
+                {line}
+              </span>
+            ))}
+          </div>
         </div>
-      ))}
-    </>
+      </div>
+    </div>
   );
 }
