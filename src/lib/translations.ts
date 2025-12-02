@@ -87,6 +87,7 @@ export const translations = {
         "Contact Forms & CTA Optimization",
         "Social Media Integration",
         "2 Revision Rounds Included",
+        "Custom Domain Included (1 Year)",
         "30 Days of Support",
       ],
       cta: "Start Now - $70 Initial Deposit",
@@ -122,12 +123,17 @@ export const translations = {
         {
           question: "What is included in the $100 package?",
           answer:
-            "Your package includes a complete custom landing page, professional design, responsive layout, contact forms, social media integration, 2 revision rounds, and 30 days of support.",
+            "Your package includes a complete custom landing page, professional design, responsive layout, contact forms, social media integration, 2 revision rounds, a custom domain for 1 year, and 30 days of support.",
         },
         {
           question: "What is the payment structure?",
           answer:
             "Total investment is $100. Start with a $70 initial deposit to begin the project, and pay the remaining $30 upon delivery and approval.",
+        },
+        {
+          question: "Is a domain included?",
+          answer:
+            "Yes, a custom domain for 1 year is included with your package. Domain pricing depends on your preferred domain extension and registrar rates. After the first year, renewal costs will apply based on your registrar's pricing.",
         },
         {
           question: "How long does the project take?",
@@ -241,6 +247,7 @@ export const translations = {
         "Formularios de Contacto Optimizados",
         "Integración con Redes Sociales",
         "2 Rondas de Revisiones Incluidas",
+        "Dominio Personalizado Incluido (1 Año)",
         "30 Días de Soporte",
       ],
       cta: "Comienza Ahora - Deposita $70",
@@ -274,24 +281,29 @@ export const translations = {
       subtitle: "¿Aún tienes dudas? Tenemos respuestas.",
       items: [
         {
-          question: "¿Cuál es el costo total del sitio web?",
+          question: "¿Qué incluye el paquete de $100?",
           answer:
-            "El costo total es de $299. Se realiza un pago inicial del 50% para comenzar y el 50% restante contra entrega.",
+            "Tu paquete incluye una landing page completamente personalizada, diseño profesional, diseño responsivo, formularios de contacto optimizados, integración con redes sociales, 2 rondas de revisiones, un dominio personalizado por 1 año, y 30 días de soporte.",
+        },
+        {
+          question: "¿Cuál es la estructura de pago?",
+          answer:
+            "La inversión total es de $100. Comienza con un depósito inicial de $70 para iniciar el proyecto, y paga los $30 restantes al momento de la entrega y aprobación.",
+        },
+        {
+          question: "¿Incluye un dominio?",
+          answer:
+            "Sí, un dominio personalizado por 1 año está incluido con tu paquete. El costo del dominio depende de la extensión de dominio que prefieras y de las tarifas de nuestro registrador. Después del primer año, se aplicarán costos de renovación según las tarifas de tu registrador.",
         },
         {
           question: "¿Cuánto tiempo tardan en construir el sitio?",
           answer:
-            "El tiempo de entrega estándar es de 7 días hábiles a partir del pago inicial.",
+            "El tiempo de entrega estándar es de 5-7 días hábiles a partir del pago inicial. Proyectos urgentes disponibles bajo solicitud.",
         },
         {
           question: "¿Puedo solicitar cambios en el diseño?",
           answer:
-            "Sí, se incluyen dos rondas de revisiones para asegurar que estés completamente satisfecho con el resultado.",
-        },
-        {
-          question: "¿Ofrecen servicio de hosting?",
-          answer:
-            "No, no incluimos el hosting. Podemos recomendarte proveedores de confianza y ayudarte en la configuración.",
+            "Sí, se incluyen dos rondas de revisiones para asegurar que estés completamente satisfecho con el resultado. Revisiones adicionales disponibles por una pequeña tarifa.",
         },
       ],
     },
