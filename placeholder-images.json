@@ -1,5 +1,12 @@
 [
   {
+    "src": "/portfolio/skyshield.svg",
+    "alt": "Skyshield Project",
+    "title": "Skyshield",
+    "description": "Advanced cybersecurity solution with real-time threat detection.",
+    "link": "https://skyshield-sand.vercel.app"
+  },
+  {
     "src": "/portfolio/1.jpg",
     "alt": "Project 1",
     "title": "Project One",

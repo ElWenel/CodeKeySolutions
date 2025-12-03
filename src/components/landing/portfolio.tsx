@@ -28,7 +28,12 @@ export function Portfolio() {
         <div className="mt-10 grid gap-8 sm:grid-cols-2">
           {portfolioItems.map((item, index) => (
             <ScrollAnimation key={index}>
-              <div className="group relative overflow-hidden rounded-lg shadow-lg hover:shadow-xl hover:shadow-primary/20 transition-all duration-300">
+              <a
+                href={item.link || "#"}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="group relative overflow-hidden rounded-lg shadow-lg hover:shadow-xl hover:shadow-primary/20 transition-all duration-300 block h-full"
+              >
                 <div className="relative h-80 overflow-hidden bg-gradient-to-br from-primary/20 to-secondary/20">
                   <Image
                     src={item.src}
@@ -56,7 +61,7 @@ export function Portfolio() {
 
                 {/* Efecto de borde animado */}
                 <div className="absolute inset-0 border-2 border-primary/0 group-hover:border-primary/50 transition-colors duration-300 rounded-lg" />
-              </div>
+              </a>
             </ScrollAnimation>
           ))}
         </div>
