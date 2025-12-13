@@ -7,27 +7,27 @@ export function HowItWorks() {
   const { t } = useLanguage();
 
   return (
-    <section id="how-it-works" className="py-20 relative overflow-hidden">
+    <section id="how-it-works" className="py-14 sm:py-20 relative overflow-hidden">
       {/* Fondo decorativo */}
       <div className="absolute inset-0 opacity-5">
         <div className="absolute top-1/2 left-1/2 w-96 h-96 bg-primary rounded-full filter blur-3xl -translate-x-1/2 -translate-y-1/2" />
       </div>
 
-      <div className="container mx-auto text-center relative z-10">
-        <ScrollAnimation>
-          <h2 className="text-3xl font-bold tracking-tight sm:text-4xl bg-gradient-to-r from-primary to-secondary bg-clip-text text-transparent">
+      <div className="container mx-auto text-center relative z-10 px-2 sm:px-0">
+        <ScrollAnimation className="animate-fade-in-up">
+          <h2 className="text-2xl sm:text-3xl font-bold tracking-tight sm:text-4xl bg-gradient-to-r from-primary to-secondary bg-clip-text text-transparent">
             {t.howItWorks.title}
           </h2>
-          <p className="mt-4 text-lg text-muted-foreground">
+          <p className="mt-4 text-base sm:text-lg text-muted-foreground">
             {t.howItWorks.subtitle}
           </p>
         </ScrollAnimation>
-        <div className="relative mt-16">
+        <div className="relative mt-10 sm:mt-16">
           {/* Línea animada de fondo */}
           <div className="absolute left-1/2 top-0 -ml-px h-full w-1 bg-gradient-to-b from-primary via-secondary to-primary opacity-30 transform -translate-x-1/2" />
 
           {t.howItWorks.steps.map((step, index) => (
-            <ScrollAnimation key={index} className="mb-16 relative">
+            <ScrollAnimation key={index} className="mb-10 sm:mb-16 relative animate-fade-in-up">
               <div className="flex flex-col items-center">
                 {/* Número del paso con efecto de brillo */}
                 <div className="relative z-10 mb-6">
@@ -38,11 +38,11 @@ export function HowItWorks() {
                 </div>
 
                 {/* Contenido del paso */}
-                <div className="max-w-2xl">
-                  <h3 className="text-2xl font-bold mt-4 mb-2 text-foreground group-hover:text-primary transition-colors duration-300">
+                <div className="max-w-xl">
+                  <h3 className="text-lg sm:text-2xl font-bold mt-4 mb-2 text-foreground group-hover:text-primary transition-colors duration-300">
                     {step.title}
                   </h3>
-                  <p className="text-muted-foreground text-lg leading-relaxed">
+                  <p className="text-muted-foreground text-base sm:text-lg leading-relaxed">
                     {step.description}
                   </p>
                 </div>

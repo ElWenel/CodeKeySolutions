@@ -25,14 +25,14 @@ export function Testimonials() {
             {t.testimonials.subtitle}
           </p>
         </ScrollAnimation>
-        <div className="mt-10 grid gap-8 md:grid-cols-3">
+        <div className="mt-10 grid gap-6 grid-cols-1 sm:grid-cols-2 md:grid-cols-3 px-2 sm:px-0">
           {t.testimonials.items.map((item, index) => (
-            <ScrollAnimation key={index}>
-              <Card className="h-full bg-gradient-to-br from-card/80 to-card/40 backdrop-blur-sm border-primary/30 hover:border-primary/60 shadow-lg hover:shadow-2xl hover:shadow-primary/20 transition-all duration-300 group overflow-hidden">
+            <ScrollAnimation key={index} className="animate-fade-in-up">
+              <Card className="h-full bg-gradient-to-br from-card/80 to-card/40 backdrop-blur-sm border-primary/30 hover:border-primary/70 shadow-lg hover:shadow-2xl hover:shadow-primary/30 transition-all duration-500 group overflow-hidden">
                 {/* Efecto de luz en la esquina */}
                 <div className="absolute top-0 right-0 w-32 h-32 bg-primary/20 rounded-full filter blur-2xl opacity-0 group-hover:opacity-100 transition-opacity duration-300" />
 
-                <CardContent className="p-6 relative z-10">
+                <CardContent className="p-4 sm:p-6 relative z-10">
                   {/* Rating visual */}
                   <div className="mb-4 flex justify-center gap-1">
                     <div className="flex items-center gap-1">
@@ -46,15 +46,15 @@ export function Testimonials() {
                   </div>
 
                   {/* Comilla */}
-                  <div className="mb-4 text-4xl text-primary/30 font-light">
+                  <div className="mb-4 text-3xl sm:text-4xl text-primary/30 font-light">
                     "
                   </div>
 
-                  <p className="italic text-foreground/90 mb-6 leading-relaxed group-hover:text-foreground transition-colors duration-300">
+                  <p className="italic text-foreground/90 mb-4 sm:mb-6 leading-relaxed group-hover:text-foreground transition-colors duration-300 text-sm sm:text-base">
                     {item.quote}
                   </p>
 
-                  <div className="mt-6 flex items-center justify-center pt-6 border-t border-primary/20 group-hover:border-primary/40 transition-colors duration-300">
+                  <div className="mt-4 sm:mt-6 flex items-center justify-center pt-4 sm:pt-6 border-t border-primary/20 group-hover:border-primary/40 transition-colors duration-300">
                     <Avatar className="h-12 w-12 border-2 border-primary/50 group-hover:border-primary transition-colors duration-300">
                       <AvatarImage
                         src={`https://i.pravatar.cc/150?u=${item.author}`}
@@ -64,11 +64,11 @@ export function Testimonials() {
                         {item.author.charAt(0)}
                       </AvatarFallback>
                     </Avatar>
-                    <div className="ml-4 text-left">
-                      <p className="font-bold text-foreground group-hover:text-primary transition-colors duration-300">
+                    <div className="ml-3 sm:ml-4 text-left">
+                      <p className="font-bold text-foreground group-hover:text-primary transition-colors duration-300 text-sm sm:text-base">
                         {item.author}
                       </p>
-                      <p className="text-sm text-muted-foreground">
+                      <p className="text-xs sm:text-sm text-muted-foreground">
                         {item.title}
                       </p>
                     </div>

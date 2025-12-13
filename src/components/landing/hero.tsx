@@ -10,7 +10,7 @@ export function Hero() {
   return (
     <section
       id="hero"
-      className="relative h-[80vh] min-h-[500px] w-full overflow-hidden bg-cover bg-center"
+      className="relative h-[70vh] min-h-[350px] sm:h-[80vh] sm:min-h-[500px] w-full overflow-hidden bg-cover bg-center px-2 sm:px-0"
       style={{ backgroundImage: "url('/hero-background.jpg')" }}
     >
       {/* Fondo con gradiente y overlay */}
@@ -23,22 +23,22 @@ export function Hero() {
         style={{ animationDelay: "2s" }}
       />
 
-      <div className="relative z-10 flex h-full flex-col items-center justify-center text-center px-4">
-        <ScrollAnimation>
-          <h1 className="text-4xl font-bold tracking-tight text-white sm:text-5xl md:text-6xl lg:text-7xl mb-4">
+      <div className="relative z-10 flex h-full flex-col items-center justify-center text-center px-2 sm:px-4">
+        <ScrollAnimation className="animate-fade-in-up">
+          <h1 className="text-2xl sm:text-4xl font-bold tracking-tight text-white md:text-6xl lg:text-7xl mb-4">
             <span className="bg-gradient-to-r from-primary via-accent to-secondary bg-clip-text text-transparent">
               {t.hero.title}
             </span>
           </h1>
         </ScrollAnimation>
 
-        <ScrollAnimation className="mt-6">
-          <p className="max-w-3xl text-lg text-gray-200 md:text-xl drop-shadow-lg">
+        <ScrollAnimation className="mt-6 animate-fade-in-up">
+          <p className="max-w-2xl text-base sm:text-lg text-gray-200 md:text-xl drop-shadow-lg">
             {t.hero.subtitle}
           </p>
         </ScrollAnimation>
 
-        <ScrollAnimation className="mt-10">
+        <ScrollAnimation className="mt-10 animate-fade-in-up">
           <a
             href="https://www.facebook.com/people/Code-Key-Solutions/61584543391242/"
             target="_blank"
@@ -46,7 +46,7 @@ export function Hero() {
           >
             <Button
               size="lg"
-              className="bg-gradient-to-r from-primary to-accent hover:from-accent hover:to-primary shadow-lg hover:shadow-xl hover:shadow-primary/40 transition-all duration-300 transform hover:scale-105"
+              className="bg-gradient-to-r from-primary to-accent hover:from-accent hover:to-primary shadow-lg hover:shadow-2xl hover:shadow-primary/50 transition-all duration-500 transform hover:scale-110"
             >
               {t.hero.cta}
             </Button>
