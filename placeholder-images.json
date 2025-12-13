@@ -1,33 +1,20 @@
 [
   {
-    "src": "/portafolio1.jpeg",
-    "alt": "Skyshield Project",
-    "title": "Skyshield",
+    "video": "/portfolio/Black_Label_Detailing.mp4",
+    "title": "Black Label Detailing",
+    "description": "Premium detailing for luxury vehicles.",
+    "link": "#"
+  },
+  {
+    "video": "/portfolio/SkyShield.mp4",
+    "title": "SkyShield",
     "description": "Professional Solutions for Residential & Commercial Properties",
     "link": "https://skyshield-sand.vercel.app"
   },
   {
-    "src": "/portfolio/1.jpg",
-    "alt": "Project 1",
-    "title": "Project One",
-    "description": "A beautiful and modern website for a tech startup."
-  },
-  {
-    "src": "/portfolio/2.jpg",
-    "alt": "Project 2",
-    "title": "Project Two",
-    "description": "An e-commerce platform with a focus on user experience."
-  },
-  {
-    "src": "/portfolio/3.jpg",
-    "alt": "Project 3",
-    "title": "Project Three",
-    "description": "A corporate website for a leading company in the industry."
-  },
-  {
-    "src": "/portfolio/4.jpg",
-    "alt": "Project 4",
-    "title": "Project Four",
-    "description": "A landing page for a new mobile application."
+    "video": "/portfolio/SpaMed.mp4",
+    "title": "SpaMed",
+    "description": "Medical Spa & Laser Center website.",
+    "link": "#"
   }
 ]

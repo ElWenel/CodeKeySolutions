@@ -1,6 +1,6 @@
 "use client";
 
-import Image from "next/image";
+// import Image from "next/image";
 import { useLanguage } from "@/components/providers/language-provider";
 import { ScrollAnimation } from "@/components/scroll-animation";
 import { ExternalLink } from "lucide-react";
@@ -35,11 +35,12 @@ export function Portfolio() {
                 className="group relative overflow-hidden rounded-lg shadow-lg hover:shadow-xl hover:shadow-primary/20 transition-all duration-300 block h-full"
               >
                 <div className="relative h-80 overflow-hidden bg-gradient-to-br from-primary/20 to-secondary/20">
-                  <Image
-                    src={item.src}
-                    alt={item.alt}
-                    width={600}
-                    height={400}
+                  <video
+                    src={item.video}
+                    autoPlay
+                    loop
+                    muted
+                    playsInline
                     className="h-full w-full object-cover transition-transform duration-700 group-hover:scale-105"
                   />
                   {/* Overlay con gradiente */}
