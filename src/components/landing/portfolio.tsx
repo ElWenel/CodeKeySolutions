@@ -25,7 +25,9 @@ export function Portfolio() {
             {t.portfolio.subtitle}
           </p>
         </ScrollAnimation>
-        <div className="mt-10 grid gap-8 sm:grid-cols-2">
+        <div
+          className={`mt-10 grid gap-8 ${portfolioItems.length === 1 ? 'sm:grid-cols-1 justify-items-center' : 'sm:grid-cols-2'}`}
+        >
           {portfolioItems.map((item, index) => (
             <ScrollAnimation key={index}>
               <a
