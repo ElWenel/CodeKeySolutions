@@ -13,10 +13,10 @@ export const translations = {
       cta: "Start Your Website",
     },
     hero: {
-      title: "Premium Landing Pages for Your Business",
+      title: "Premium Websites That Convert",
       subtitle:
-        "Professional, high-converting landing pages built to drive results. Start from just $70.",
-      cta: "Start Your Website - $70 Initial Deposit",
+        "Get a stunning, high-converting website for your business. One-time payment, no monthly fees. Plans from $199.",
+      cta: "Get Started Now",
     },
     services: {
       title: "Our Services",
@@ -39,78 +39,116 @@ export const translations = {
         },
         {
           icon: Handshake,
-          title: "Continuous Support",
-          description: "We are here to help you even after the launch.",
+          title: "Ongoing Support",
+          description: "We’re here for you before, during, and after launch.",
         },
       ],
     },
     portfolio: {
       title: "Our Work",
-      subtitle: "A selection of our latest projects.",
+      subtitle: "See how we help businesses stand out online.",
     },
     howItWorks: {
       title: "How It Works",
-      subtitle: "Our process is simple and transparent.",
+      subtitle: "Simple, transparent, and fast from start to finish.",
       steps: [
         {
           number: "1",
-          title: "Initial Payment",
-          description: "Make the initial deposit to start the project.",
+          title: "Share Your Details",
+          description:
+            "Tell us about your business and goals. We’ll handle the rest.",
         },
         {
           number: "2",
-          title: "We Build Your Website",
-          description: "We get to work to bring your vision to life.",
+          title: "Design & Build",
+          description:
+            "We create your landing page and send a preview in 24–48 hours.",
         },
         {
           number: "3",
-          title: "Review and Adjust",
-          description:
-            "We present the result and make the necessary adjustments.",
+          title: "Review & Revise",
+          description: "You review, request changes, and we perfect your site.",
         },
         {
           number: "4",
-          title: "Final Payment and Delivery",
+          title: "Launch & Support",
           description:
-            "Make the final payment and receive your complete website.",
+            "Go live! Enjoy ongoing support and results you can trust.",
         },
       ],
     },
     pricing: {
-      title: "Pricing",
-      subtitle: "Transparent pricing with flexible payment options.",
-      price: "$100",
-      features: [
-        "Complete Custom Landing Page",
-        "Professional Design & Layout",
-        "Fully Responsive Design",
-        "Contact Forms & CTA Optimization",
-        "Social Media Integration",
-        "2 Revision Rounds Included",
-        "Custom Domain Included (1 Year)",
-        "30 Days of Support",
+      title: "One-Time Pricing – No Monthly Fees",
+      subtitle:
+        "Choose the perfect plan for your business. All plans include 1 year of website validity.",
+      plans: [
+        {
+          name: "Starter",
+          price: "$199",
+          features: [
+            "Custom one-page landing page",
+            "Professional responsive design",
+            "Background video in hero section",
+            "Contact form & CTAs",
+            "Social media integration",
+            "2 revision rounds",
+            "Free hosting",
+            "Delivery in 24–48 hours",
+          ],
+        },
+        {
+          name: "Professional",
+          price: "$399",
+          mostPopular: true,
+          features: [
+            "Everything in Starter",
+            "Custom domain included (1 year)",
+            "Premium hosting",
+            "Optimized hero video",
+            "Basic SEO",
+            "Call / WhatsApp button",
+            "Google Maps integration",
+            "3 revision rounds",
+            "30 days post-launch support",
+            "Delivery in 24–48 hours",
+          ],
+        },
+        {
+          name: "Premium",
+          price: "$599",
+          features: [
+            "Everything in Professional",
+            "Conversion-focused copywriting",
+            "Advanced section-based design",
+            "Smooth animations",
+            "Conversion-optimized layout",
+            "Up to 5 revision rounds",
+            "Priority support",
+            "Delivery in 3–5 business days",
+          ],
+        },
       ],
-      cta: "Start Now - $70 Initial Deposit",
+      cta: "Get Started Now",
     },
     testimonials: {
-      title: "What Our Clients Say",
-      subtitle: "Real feedback from businesses we have helped.",
+      title: "Client Success Stories",
+      subtitle: "See how we help businesses grow and win online.",
       items: [
         {
           quote:
-            "We hired CodeKey Solutions for our e-commerce landing page and saw a 45% increase in sales within the first month. Their attention to detail and professional approach is outstanding.",
+            "Our new landing page was live in less than 48 hours and immediately started bringing in new clients. The process was seamless and the results exceeded our expectations.",
           author: "Maria Rodriguez",
           title: "Owner, Fashion Boutique Online",
         },
         {
           quote:
-            "Fast, efficient, and exactly what we needed. The website they built brought us qualified leads and improved our brand credibility significantly.",
+            "The team delivered a beautiful, high-converting site with zero hassle. We loved the clear pricing and fast turnaround.",
           author: "David Chen",
           title: "Founder, Digital Marketing Agency",
         },
         {
           quote:
-            "Working with CodeKey Solutions was a game-changer. They delivered a high-converting landing page that has become our best marketing tool.",
+            "Professional, responsive, and truly focused on results. Highly recommended for any business owner who wants to grow online.",
           author: "Sarah Thompson",
           title: "Director, SaaS Startup",
         },
@@ -118,38 +156,43 @@ export const translations = {
     },
     faq: {
       title: "Frequently Asked Questions",
-      subtitle: "Have questions? We have clear answers.",
+      subtitle: "Everything you need to know before getting started.",
       items: [
         {
-          question: "What is included in the $100 package?",
+          question: "How long does delivery take?",
           answer:
-            "Your package includes a complete custom landing page, professional design, responsive layout, contact forms, social media integration, 2 revision rounds, a custom domain for 1 year, and 30 days of support.",
+            "Starter and Professional plans are delivered in 24–48 hours. Premium plan in 3–5 business days.",
         },
         {
-          question: "What is the payment structure?",
+          question: "What information do you need to start?",
           answer:
-            "Total investment is $100. Start with a $70 initial deposit to begin the project, and pay the remaining $30 upon delivery and approval.",
+            "We’ll ask for your business name, industry, goals, branding preferences, and any content or images you want to include.",
         },
         {
-          question: "Is a domain included?",
+          question: "What are revision rounds?",
           answer:
-            "Yes, a custom domain for 1 year is included with your package. Domain pricing depends on your preferred domain extension and registrar rates. After the first year, renewal costs will apply based on your registrar's pricing.",
+            "Revision rounds are opportunities to request changes after seeing your preview. Each plan includes a set number of rounds for your peace of mind.",
         },
         {
-          question: "How long does the project take?",
+          question: "Is hosting and domain included?",
           answer:
-            "Standard delivery time is 5-7 business days from the initial payment. Rush projects available upon request.",
+            "All plans include free hosting. Professional and Premium include a custom domain for 1 year.",
         },
         {
-          question: "Are revisions included?",
+          question: "What happens after one year?",
           answer:
-            "Yes, 2 rounds of revisions are included. Additional revisions are available for a small fee.",
+            "You can renew your hosting/domain for a small annual fee or migrate your site anywhere you like. No lock-in.",
+        },
+        {
+          question: "Can I request changes later?",
+          answer:
+            "Yes! You can request additional changes or upgrades at any time for a transparent one-time fee.",
         },
       ],
     },
     contact: {
       title: "Contact Us",
-      subtitle: "Send us a message and we will get back to you shortly.",
+      subtitle: "Ready to grow? Let’s talk about your project.",
       name: "Name",
       email: "Email",
       message: "Message",
@@ -157,7 +200,7 @@ export const translations = {
       success: "Message sent successfully!",
     },
     footer: {
-      copyright: "© 2024 CodeKey Solutions. All rights reserved.",
+      copyright: "\u00a9 2025 CodeKey Solutions. All rights reserved.",
     },
   },
   es: {
@@ -169,108 +212,149 @@ export const translations = {
       testimonials: "Testimonios",
       faq: "Preguntas Frecuentes",
       contact: "Contacto",
-      cta: "Comienza Tu Web",
+      cta: "Comenzar Ahora",
     },
     hero: {
-      title: "Landing Pages Premium para Tu Negocio",
+      title: "Landing Pages Profesionales en 24–48 Horas",
       subtitle:
-        "Sitios web profesionales de alta conversión diseñados para generar resultados. Comienza desde solo $70.",
-      cta: "Comienza Tu Web - Deposita $70",
+        "Haz crecer tu negocio con una landing page premium, enfocada en conversión. Rápido, confiable y sin cuotas mensuales.",
+      cta: "Ver Ejemplos / Comenzar",
     },
     services: {
-      title: "Nuestros Servicios",
-      subtitle: "Todo lo que necesitas para lanzar tu presencia en línea.",
+      title: "¿Qué Ofrecemos?",
+      subtitle:
+        "Landing pages personalizadas para negocios en EE.UU. y Europa.",
       items: [
         {
           icon: Rocket,
-          title: "Desarrollo Rápido",
-          description:
-            "Construimos y entregamos tu landing page en tiempo récord.",
+          title: "Entrega Ultra Rápida",
+          description: "Tu landing page profesional lista en 24–48 horas.",
         },
         {
           icon: Palette,
-          title: "Diseño a Medida",
-          description: "Diseños únicos y modernos adaptados a tu marca.",
+          title: "Diseño Premium a Medida",
+          description:
+            "Moderno, responsivo y pensado para convertir visitantes en clientes.",
         },
         {
           icon: Zap,
-          title: "Alto Rendimiento",
+          title: "Hosting y Dominio Incluidos",
           description:
-            "Optimizada para la velocidad y una experiencia de usuario fluida.",
+            "Hosting gratis y dominio personalizado. Sin costos ocultos.",
         },
         {
           icon: Handshake,
           title: "Soporte Continuo",
-          description: "Estamos para ayudarte incluso después del lanzamiento.",
+          description:
+            "Te acompañamos antes, durante y después del lanzamiento.",
         },
       ],
     },
     portfolio: {
       title: "Nuestro Trabajo",
-      subtitle: "Una selección de nuestros últimos proyectos.",
+      subtitle: "Mira cómo ayudamos a negocios a destacar online.",
     },
     howItWorks: {
       title: "Cómo Funciona",
-      subtitle: "Nuestro proceso es simple y transparente.",
+      subtitle: "Simple, transparente y rápido de principio a fin.",
       steps: [
         {
           number: "1",
-          title: "Pago Inicial",
-          description: "Realiza el depósito inicial para comenzar el proyecto.",
+          title: "Cuéntanos de tu Negocio",
+          description:
+            "Dinos tu giro, objetivos y preferencias. Nosotros nos encargamos del resto.",
         },
         {
           number: "2",
-          title: "Construimos Tu Web",
-          description: "Nos ponemos manos a la obra para dar vida a tu visión.",
+          title: "Diseño y Desarrollo",
+          description:
+            "Creamos tu landing page y te enviamos un preview en 24–48 horas.",
         },
         {
           number: "3",
           title: "Revisión y Ajustes",
-          description:
-            "Te presentamos el resultado y hacemos los ajustes necesarios.",
+          description: "Revisas, pides cambios y perfeccionamos tu sitio.",
         },
         {
           number: "4",
-          title: "Pago Final y Entrega",
-          description: "Realiza el pago final y recibe tu sitio web completo.",
+          title: "Lanzamiento y Soporte",
+          description:
+            "¡Publicamos tu web! Disfruta soporte continuo y resultados reales.",
         },
       ],
     },
     pricing: {
-      title: "Precios",
-      subtitle: "Precios transparentes con opciones de pago flexible.",
-      price: "$100",
-      features: [
-        "Landing Page Completamente Personalizada",
-        "Diseño Profesional y Moderno",
-        "Diseño Totalmente Responsivo",
-        "Formularios de Contacto Optimizados",
-        "Integración con Redes Sociales",
-        "2 Rondas de Revisiones Incluidas",
-        "Dominio Personalizado Incluido (1 Año)",
-        "30 Días de Soporte",
+      title: "Pago Único – Sin Mensualidades",
+      subtitle:
+        "Elige el plan ideal para tu negocio. Todos incluyen 1 año de validez.",
+      plans: [
+        {
+          name: "Starter",
+          price: "$199",
+          features: [
+            "Landing page de una sola sección",
+            "Diseño profesional y responsivo",
+            "Video de fondo en el hero",
+            "Formulario de contacto y CTAs",
+            "Integración con redes sociales",
+            "2 rondas de revisiones",
+            "Hosting gratis",
+            "Entrega en 24–48 horas",
+          ],
+        },
+        {
+          name: "Professional",
+          price: "$399",
+          mostPopular: true,
+          features: [
+            "Todo lo de Starter",
+            "Dominio personalizado incluido (1 año)",
+            "Hosting premium",
+            "Video optimizado en el hero",
+            "SEO básico",
+            "Botón de llamada / WhatsApp",
+            "Integración con Google Maps",
+            "3 rondas de revisiones",
+            "30 días de soporte post-lanzamiento",
+            "Entrega en 24–48 horas",
+          ],
+        },
+        {
+          name: "Premium",
+          price: "$599",
+          features: [
+            "Todo lo de Professional",
+            "Copywriting persuasivo",
+            "Diseño avanzado por secciones",
+            "Animaciones suaves",
+            "Layout optimizado para conversión",
+            "Hasta 5 rondas de revisiones",
+            "Soporte prioritario",
+            "Entrega en 3–5 días hábiles",
+          ],
+        },
       ],
-      cta: "Comienza Ahora - Deposita $70",
+      cta: "Comenzar Ahora",
     },
     testimonials: {
-      title: "Lo Que Dicen Nuestros Clientes",
-      subtitle: "Retroalimentación real de negocios que hemos ayudado.",
+      title: "Historias de Éxito",
+      subtitle: "Descubre cómo ayudamos a negocios a crecer online.",
       items: [
         {
           quote:
-            "Contratamos a CodeKey Solutions para nuestro landing page de comercio electrónico y vimos un aumento del 45% en ventas en el primer mes.",
-          author: "María Rodríguez",
+            "Nuestra nueva landing page estuvo lista en menos de 48 horas y empezó a traer clientes de inmediato. El proceso fue sencillo y el resultado superó nuestras expectativas.",
+          author: "María Rodriguez",
           title: "Propietaria, Boutique de Moda Online",
         },
         {
           quote:
-            "Rápido, eficiente y exactamente lo que necesitábamos. El sitio web que construyeron nos trajo clientes calificados y mejoró nuestra credibilidad de marca.",
+            "El equipo entregó un sitio hermoso y que convierte, sin complicaciones. Nos encantó el precio claro y la rapidez.",
           author: "David Chen",
           title: "Fundador, Agencia de Marketing Digital",
         },
         {
           quote:
-            "Trabajar con CodeKey Solutions fue un cambio de juego. Entregaron un landing page de alta conversión que se convirtió en nuestra mejor herramienta de marketing.",
+            "Profesionales, atentos y realmente enfocados en resultados. Los recomiendo a cualquier negocio que quiera crecer online.",
           author: "Sarah Thompson",
           title: "Directora, Startup SaaS",
         },
@@ -278,38 +362,43 @@ export const translations = {
     },
     faq: {
       title: "Preguntas Frecuentes",
-      subtitle: "¿Aún tienes dudas? Tenemos respuestas.",
+      subtitle: "Todo lo que necesitas saber antes de comenzar.",
       items: [
         {
-          question: "¿Qué incluye el paquete de $100?",
+          question: "¿Cuánto tarda la entrega?",
           answer:
-            "Tu paquete incluye una landing page completamente personalizada, diseño profesional, diseño responsivo, formularios de contacto optimizados, integración con redes sociales, 2 rondas de revisiones, un dominio personalizado por 1 año, y 30 días de soporte.",
+            "Los planes Starter y Professional se entregan en 24–48 horas. El plan Premium en 3–5 días hábiles.",
         },
         {
-          question: "¿Cuál es la estructura de pago?",
+          question: "¿Qué información necesitan para empezar?",
           answer:
-            "La inversión total es de $100. Comienza con un depósito inicial de $70 para iniciar el proyecto, y paga los $30 restantes al momento de la entrega y aprobación.",
+            "Te pediremos nombre de tu negocio, giro, objetivos, preferencias de marca y cualquier contenido o imagen que quieras incluir.",
         },
         {
-          question: "¿Incluye un dominio?",
+          question: "¿Qué son las rondas de revisión?",
           answer:
-            "Sí, un dominio personalizado por 1 año está incluido con tu paquete. El costo del dominio depende de la extensión de dominio que prefieras y de las tarifas de nuestro registrador. Después del primer año, se aplicarán costos de renovación según las tarifas de tu registrador.",
+            "Son oportunidades para pedir cambios después de ver tu preview. Cada plan incluye un número de rondas para tu tranquilidad.",
         },
         {
-          question: "¿Cuánto tiempo tardan en construir el sitio?",
+          question: "¿Incluye hosting y dominio?",
           answer:
-            "El tiempo de entrega estándar es de 5-7 días hábiles a partir del pago inicial. Proyectos urgentes disponibles bajo solicitud.",
+            "Todos los planes incluyen hosting gratis. Professional y Premium incluyen dominio personalizado por 1 año.",
         },
         {
-          question: "¿Puedo solicitar cambios en el diseño?",
+          question: "¿Qué pasa después de un año?",
           answer:
-            "Sí, se incluyen dos rondas de revisiones para asegurar que estés completamente satisfecho con el resultado. Revisiones adicionales disponibles por una pequeña tarifa.",
+            "Puedes renovar tu hosting/dominio por una pequeña cuota anual o migrar tu sitio donde prefieras. Sin ataduras.",
+        },
+        {
+          question: "¿Puedo pedir cambios después?",
+          answer:
+            "¡Claro! Puedes solicitar cambios o mejoras adicionales en cualquier momento por una tarifa única y transparente.",
         },
       ],
     },
     contact: {
       title: "Contáctanos",
-      subtitle: "Envíanos un mensaje y te responderemos en breve.",
+      subtitle: "¿Listo para crecer? Hablemos de tu proyecto.",
       name: "Nombre",
       email: "Correo Electrónico",
       message: "Mensaje",
@@ -317,7 +406,8 @@ export const translations = {
       success: "¡Mensaje enviado con éxito!",
     },
     footer: {
-      copyright: "© 2024 CodeKey Solutions. Todos los derechos reservados.",
+      copyright:
+        "\u00a9 2025 CodeKey Solutions. Todos los derechos reservados.",
     },
   },
 };
