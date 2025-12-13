@@ -3,7 +3,7 @@
     "video": "/portfolio/Black_Label_Detailing.mp4",
     "title": "Black Label Detailing",
     "description": "Premium detailing for luxury vehicles.",
-    "link": "#"
+    "link": "https://blacklabeldetailing.vercel.app"
   },
   {
     "video": "/portfolio/SkyShield.mp4",
@@ -15,6 +15,6 @@
     "video": "/portfolio/SpaMed.mp4",
     "title": "SpaMed",
     "description": "Medical Spa & Laser Center website.",
-    "link": "#"
+    "link": "https://spadmed.vercel.app"
   }
 ]
