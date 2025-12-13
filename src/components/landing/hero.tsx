@@ -11,10 +11,18 @@ export function Hero() {
     <section
       id="hero"
       className="relative h-[70vh] min-h-[350px] sm:h-[80vh] sm:min-h-[500px] w-full overflow-hidden bg-cover bg-center px-2 sm:px-0"
-      style={{ backgroundImage: "url('/hero-background.jpg')" }}
     >
+      {/* Video de fondo hero */}
+      <video
+        className="absolute inset-0 w-full h-full object-cover z-0 blur-[4px] brightness-75"
+        src="/portfolio/Tech_Company_Hero_Video_Generation.mp4"
+        autoPlay
+        loop
+        muted
+        playsInline
+      />
       {/* Fondo con gradiente y overlay */}
-      <div className="absolute inset-0 bg-gradient-to-b from-black/40 via-black/60 to-black/80" />
+      <div className="absolute inset-0 bg-gradient-to-b from-black/40 via-black/60 to-black/80 z-0" />
 
       {/* Elementos decorativos animados */}
       <div className="absolute top-10 left-10 w-72 h-72 bg-primary/20 rounded-full filter blur-3xl opacity-20 animate-float" />
