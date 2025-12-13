@@ -24,7 +24,9 @@ export function Faq() {
           <h2 className="text-2xl sm:text-3xl font-bold tracking-tight sm:text-4xl bg-gradient-to-r from-primary to-secondary bg-clip-text text-transparent">
             {t.faq.title}
           </h2>
-          <p className="mt-4 text-base sm:text-lg text-muted-foreground">{t.faq.subtitle}</p>
+          <p className="mt-4 text-base sm:text-lg text-muted-foreground">
+            {t.faq.subtitle}
+          </p>
         </ScrollAnimation>
         <ScrollAnimation className="mt-10 text-left animate-fade-in-up">
           <Accordion type="single" collapsible className="w-full space-y-3">

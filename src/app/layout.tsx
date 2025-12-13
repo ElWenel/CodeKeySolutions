@@ -23,7 +23,9 @@ export default function RootLayout({
       <head>
         <link rel="icon" href="/favicon.ico" sizes="any" />
       </head>
-      <body className={cn("min-h-screen font-sans antialiased", inter.className)}>
+      <body
+        className={cn("min-h-screen font-sans antialiased", inter.className)}
+      >
         <ThemeProvider
           attribute="class"
           defaultTheme="dark"

@@ -7,7 +7,10 @@ export function HowItWorks() {
   const { t } = useLanguage();
 
   return (
-    <section id="how-it-works" className="py-14 sm:py-20 relative overflow-hidden">
+    <section
+      id="how-it-works"
+      className="py-14 sm:py-20 relative overflow-hidden"
+    >
       {/* Fondo decorativo */}
       <div className="absolute inset-0 opacity-5">
         <div className="absolute top-1/2 left-1/2 w-96 h-96 bg-primary rounded-full filter blur-3xl -translate-x-1/2 -translate-y-1/2" />
@@ -27,7 +30,10 @@ export function HowItWorks() {
           <div className="absolute left-1/2 top-0 -ml-px h-full w-1 bg-gradient-to-b from-primary via-secondary to-primary opacity-30 transform -translate-x-1/2" />
 
           {t.howItWorks.steps.map((step, index) => (
-            <ScrollAnimation key={index} className="mb-10 sm:mb-16 relative animate-fade-in-up">
+            <ScrollAnimation
+              key={index}
+              className="mb-10 sm:mb-16 relative animate-fade-in-up"
+            >
               <div className="flex flex-col items-center">
                 {/* Número del paso con efecto de brillo */}
                 <div className="relative z-10 mb-6">
